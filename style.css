@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+    background-color: #f0f0f0;    
+}
+
+.cabecalho{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px;
+    background-color: #d40c04;
+    gap: 250px;
+}
+
+.titulo{
+    color: #f0f0f0;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+    background-color: #242c2c;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: black;
+    height: 80vh;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.titulo-form{
+    color: #f0f0f0;
+}
+
+.dados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    color: #f0f0f0;
+}
+
+#nome, #sobrenome, #matricula, #horario{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#email{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.botao{
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+ }
